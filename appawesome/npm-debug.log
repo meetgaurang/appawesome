@@ -1,0 +1,213 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-exec',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.14.3
+3 info using node@v4.1.0
+4 verbose install initial load of D:\Work\FirstCompleteApp\appawesome\package.json
+5 warn package.json gpapp@1.0.0 No repository field.
+6 warn package.json gpapp@1.0.0 No README data
+7 warn package.json gpapp@1.0.0 No license field.
+8 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt\package.json
+9 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-clean\package.json
+10 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-concat\package.json
+11 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-copy\package.json
+12 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-jshint\package.json
+13 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-uglify\package.json
+14 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-env\package.json
+15 verbose installManyTop reading scoped package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-preprocess\package.json
+16 info package.json grunt-env@0.4.4 No license field.
+17 info package.json grunt-preprocess@5.1.0 No license field.
+18 verbose readDependencies loading dependencies from D:\Work\FirstCompleteApp\appawesome\package.json
+19 silly cache add args [ 'grunt-exec', null ]
+20 verbose cache add spec grunt-exec
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'grunt-exec',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'grunt-exec',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: '*',
+21 silly cache add   type: 'range' }
+22 silly addNamed grunt-exec@*
+23 verbose addNamed "*" is a valid semver range for grunt-exec
+24 silly addNameRange { name: 'grunt-exec', range: '*', hasData: false }
+25 silly mapToRegistry name grunt-exec
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/grunt-exec
+29 verbose addNameRange registry:https://registry.npmjs.org/grunt-exec not in flight; fetching
+30 verbose request uri https://registry.npmjs.org/grunt-exec
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 3:01:47 PM
+33 verbose request id e5d1b29ae42d61ad
+34 http request GET https://registry.npmjs.org/grunt-exec
+35 http 200 https://registry.npmjs.org/grunt-exec
+36 silly get cb [ 200,
+36 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly get     etag: '"8RHUPD2UMW343JKYIOLBP51J5"',
+36 silly get     'content-type': 'application/json',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     'content-length': '18268',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Sun, 24 Apr 2016 09:32:01 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     age: '165',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-iad2122-IAD',
+36 silly get     'x-cache': 'HIT',
+36 silly get     'x-cache-hits': '1',
+36 silly get     'x-timer': 'S1461490321.066559,VS0,VE0',
+36 silly get     vary: 'Accept-Encoding' } ]
+37 verbose get saving grunt-exec to C:\Users\dell\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-exec\.cache.json
+38 silly addNameRange number 2 { name: 'grunt-exec', range: '*', hasData: true }
+39 silly addNameRange versions [ 'grunt-exec',
+39 silly addNameRange   [ '0.1.0',
+39 silly addNameRange     '0.1.1',
+39 silly addNameRange     '0.2.0',
+39 silly addNameRange     '0.2.1',
+39 silly addNameRange     '0.3.0',
+39 silly addNameRange     '0.4.0',
+39 silly addNameRange     '0.4.1',
+39 silly addNameRange     '0.4.2',
+39 silly addNameRange     '0.4.0-rc1',
+39 silly addNameRange     '0.4.5',
+39 silly addNameRange     '0.4.3',
+39 silly addNameRange     '0.4.6' ] ]
+40 silly addNamed grunt-exec@0.4.6
+41 verbose addNamed "0.4.6" is a plain semver version for grunt-exec
+42 silly mapToRegistry name grunt-exec
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/grunt-exec
+46 verbose addRemoteTarball https://registry.npmjs.org/grunt-exec/-/grunt-exec-0.4.6.tgz not in flight; adding
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-0.4.6.tgz',
+47 verbose addRemoteTarball   '28904a5d5bd2fa0ab65c6b94d23c5b180ab99d23' ]
+48 info retry fetch attempt 1 at 3:01:52 PM
+49 info attempt registry request try #1 at 3:01:52 PM
+50 http fetch GET https://registry.npmjs.org/grunt-exec/-/grunt-exec-0.4.6.tgz
+51 http fetch 200 https://registry.npmjs.org/grunt-exec/-/grunt-exec-0.4.6.tgz
+52 silly fetchAndShaCheck shasum 28904a5d5bd2fa0ab65c6b94d23c5b180ab99d23
+53 verbose addTmpTarball C:\Users\dell\AppData\Local\Temp\npm-74356-49508208\registry.npmjs.org\grunt-exec\-\grunt-exec-0.4.6.tgz not in flight; adding
+54 verbose addTmpTarball already have metadata; skipping unpack for grunt-exec@0.4.6
+55 silly cache afterAdd grunt-exec@0.4.6
+56 verbose afterAdd C:\Users\dell\AppData\Roaming\npm-cache\grunt-exec\0.4.6\package\package.json not in flight; writing
+57 verbose afterAdd C:\Users\dell\AppData\Roaming\npm-cache\grunt-exec\0.4.6\package\package.json written
+58 silly install resolved [ { name: 'grunt-exec',
+58 silly install resolved     description: 'Grunt task for executing shell commands.',
+58 silly install resolved     version: '0.4.6',
+58 silly install resolved     homepage: 'https://github.com/jharding/grunt-exec',
+58 silly install resolved     author: { name: 'Jake Harding', email: 'jacob.s.harding@gmail.com' },
+58 silly install resolved     repository: { type: 'git', url: 'git://github.com/jharding/grunt-exec.git' },
+58 silly install resolved     bugs: { url: 'https://github.com/jharding/grunt-exec/issues' },
+58 silly install resolved     licenses: [ [Object] ],
+58 silly install resolved     main: 'Gruntfile.js',
+58 silly install resolved     engines: { node: '>=0.8.0' },
+58 silly install resolved     scripts: { test: 'node test/test.js' },
+58 silly install resolved     peerDependencies: { grunt: '~0.4' },
+58 silly install resolved     devDependencies: { grunt: '~0.4', 'grunt-contrib-jshint': '~0.1' },
+58 silly install resolved     keywords: [ 'grunt', 'gruntplugin', 'shell' ],
+58 silly install resolved     gitHead: '055b5a20b341932d0b608b339e6f86668fa4f0ad',
+58 silly install resolved     _id: 'grunt-exec@0.4.6',
+58 silly install resolved     _shasum: '28904a5d5bd2fa0ab65c6b94d23c5b180ab99d23',
+58 silly install resolved     _from: 'grunt-exec@*',
+58 silly install resolved     _npmVersion: '1.4.14',
+58 silly install resolved     _npmUser: { name: 'jharding', email: 'jacob.s.harding@gmail.com' },
+58 silly install resolved     maintainers: [ [Object] ],
+58 silly install resolved     dist:
+58 silly install resolved      { shasum: '28904a5d5bd2fa0ab65c6b94d23c5b180ab99d23',
+58 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-0.4.6.tgz' },
+58 silly install resolved     directories: {},
+58 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-0.4.6.tgz' } ]
+59 info install grunt-exec@0.4.6 into D:\Work\FirstCompleteApp\appawesome
+60 info installOne grunt-exec@0.4.6
+61 verbose installOne of grunt-exec to D:\Work\FirstCompleteApp\appawesome not in flight; installing
+62 verbose lock using C:\Users\dell\AppData\Roaming\npm-cache\_locks\grunt-exec-d9e9c8714cf3933f.lock for D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+63 silly install write writing grunt-exec 0.4.6 to D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+64 verbose unbuild node_modules\grunt-exec
+65 silly gentlyRm D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec is being purged from base D:\Work\FirstCompleteApp\appawesome
+66 verbose gentlyRm don't care about contents; nuking D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+67 verbose tar unpack C:\Users\dell\AppData\Roaming\npm-cache\grunt-exec\0.4.6\package.tgz
+68 verbose tar unpacking to D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+69 silly gentlyRm D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec is being purged
+70 verbose gentlyRm don't care about contents; nuking D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+71 silly gunzTarPerm modes [ '777', '666' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+78 silly gunzTarPerm extractEntry Gruntfile.js
+79 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry .travis.yml
+81 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+82 silly gunzTarPerm extractEntry LICENSE-MIT
+83 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 438 ]
+84 silly gunzTarPerm extractEntry tasks/exec.js
+85 silly gunzTarPerm modified mode [ 'tasks/exec.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry test/Gruntfile.js
+87 silly gunzTarPerm modified mode [ 'test/Gruntfile.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry test/test.js
+89 silly gunzTarPerm modified mode [ 'test/test.js', 420, 438 ]
+90 verbose write writing to D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec\package.json
+91 info preinstall grunt-exec@0.4.6
+92 verbose readDependencies loading dependencies from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec\package.json
+93 silly prepareForInstallMany adding grunt@~0.4 from grunt-exec peerDependencies
+94 warn peerDependencies The peer dependency grunt@~0.4 included from grunt-exec will no
+95 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+96 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+97 verbose readDependencies loading dependencies from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec\package.json
+98 silly install resolved []
+99 verbose about to build D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+100 info build D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+101 info linkStuff grunt-exec@0.4.6
+102 silly linkStuff grunt-exec@0.4.6 has D:\Work\FirstCompleteApp\appawesome\node_modules as its parent node_modules
+103 verbose linkBins grunt-exec@0.4.6
+104 verbose linkMans grunt-exec@0.4.6
+105 verbose rebuildBundles grunt-exec@0.4.6
+106 info install grunt-exec@0.4.6
+107 info postinstall grunt-exec@0.4.6
+108 verbose readDependencies loading dependencies from D:\Work\FirstCompleteApp\appawesome\package.json
+109 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt\package.json
+110 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-clean\package.json
+111 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-concat\package.json
+112 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-copy\package.json
+113 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-jshint\package.json
+114 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-contrib-uglify\package.json
+115 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-env\package.json
+116 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec\package.json
+117 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-preprocess\package.json
+118 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\.bin\grunt\package.json
+119 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\.bin\grunt-preprocess\package.json
+120 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\.bin\grunt-preprocess.cmd\package.json
+121 verbose targetResolver reading package data from D:\Work\FirstCompleteApp\appawesome\node_modules\.bin\grunt.cmd\package.json
+122 verbose already installed skipping grunt@~0.4 D:\Work\FirstCompleteApp\appawesome
+123 silly install resolved []
+124 verbose unlock done using C:\Users\dell\AppData\Roaming\npm-cache\_locks\grunt-exec-d9e9c8714cf3933f.lock for D:\Work\FirstCompleteApp\appawesome\node_modules\grunt-exec
+125 verbose validateInstall loading D:\Work\FirstCompleteApp\appawesome\package.json for validation
+126 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+126 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+126 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+126 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+126 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+126 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+126 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+126 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+126 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+126 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+126 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+127 verbose cwd D:\Work\FirstCompleteApp\appawesome
+128 error Windows_NT 10.0.10586
+129 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-exec" "--save-dev"
+130 error node v4.1.0
+131 error npm  v2.14.3
+132 error code EPEERINVALID
+133 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+133 error peerinvalid Peer grunt-exec@0.4.6 wants grunt@~0.4
+133 error peerinvalid Peer grunt-preprocess@5.1.0 wants grunt@>=0.4.0
+133 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+133 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+133 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+134 verbose exit [ 1, true ]

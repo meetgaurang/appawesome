@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>App Awesome</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+		<!-- Framework CSS files -->
+		<link rel="stylesheet" href="assets/lib/bootstrap-3.3.5/css/bootstrap.css">
+				
+		<!-- Custom default CSS file -->
+		<!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+		<!-- Script files -->
+		<script type="text/javascript" src="assets/lib/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="assets/lib/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/lib/angularjs-1.4.7/angular.js"></script>
+	    <script type="text/javascript" src="assets/lib/angularjs-1.4.7/angular-route.js"></script>
+
+
+    	<script type="text/javascript" src="app.min.js"></script>
+
+		<script type="text/javascript">
+			angular.element(document).ready(function() {
+				// Boot up
+			    angular.bootstrap(document, ["GPApp"]);
+			});
+		</script>
+	</head>
+	<body>
+		<div>
+			<!-- Angular View -->
+			<ng-view></ng-view>
+		</div>
+	</body>
+</html>
