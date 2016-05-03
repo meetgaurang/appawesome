@@ -76,5 +76,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['env:prod', 'clean:distDirCompletely', 'preprocess:prod', 
     'concat:allSrcInOneFile', 'uglify:mergedJS', 'copy:assetsAndPartials', 'clean:tempFiles', 
-    'copy:wholeDistToCordovaProj', 'exec:createAPKCmd']);
+    'copy:wholeDistToCordovaProj'/*, 'exec:createAPKCmd'*/]);
 };
